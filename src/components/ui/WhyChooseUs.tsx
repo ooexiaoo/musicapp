@@ -5,53 +5,55 @@ import Image from "next/image";
 
 
 const musicSchoolContent = [
-    {
-      title: "Collaborative Editing",
-      description:
-        "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
-      content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Collaborative Editing
-        </div>
-      ),
-    },
-    {
-      title: "Real time changes",
-      description:
-        "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
-      content: (
-        <div className="h-full w-full  flex items-center justify-center text-white">
-          <Image
+  {
+    title: "Web Development Basics",
+    description:
+      "Get started with the fundamentals of web development in this beginner-friendly course, perfect for those eager to dive into coding.",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        Web Development Basics
+      </div>
+    ),
+  },
+  {
+    title: "Anime Appreciation",
+    description:
+      "Explore the captivating world of anime with Varun as your guide, diving into its art, culture, and storytelling.",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
+        <Image
             src="/Ilya_Kuvshino.jpg"
             width={300}
             height={300}
             className="h-full w-full object-cover"
             alt="Ilya"
           />
-        </div>
-      ),
-    },
-    {
-      title: "Version control",
-      description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
-      content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-          Version control
-        </div>
-      ),
-    },
-    {
-      title: "Running out of content",
-      description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
-      content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Running out of content
-        </div>
-      ),
-    },
-  ];
+      </div>
+      
+    ),
+  },
+  {
+    title: "Introduction to Coding",
+    description:
+      "Embark on a journey of learning new things with Varun as he introduces you to the exciting world of coding and programming.",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--blue-500),var(--purple-500))] flex items-center justify-center text-white">
+        Introduction to Coding
+      </div>
+    ),
+  },
+  {
+    title: "Anime Web Development Fusion",
+    description:
+      "Join Varun in a unique blend of anime and web development, combining creativity and technical skills to build dynamic and engaging websites.",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--red-500),var(--pink-500))] flex items-center justify-center text-white">
+        Anime Web Development Fusion
+      </div>
+    ),
+  },
+];
+
 
 function WhyChooseUs() {
   return (
