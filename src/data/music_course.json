@@ -8,7 +8,7 @@
       "price": 99.99,
       "instructor": "Varun",
       "isFeatured": true,
-      "image": "/courses/web-dev.jpg" 
+      "image": "/chocolate.png" 
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "price": 109.99,
       "instructor": "Varun",
       "isFeatured": true,
-      "image": "/courses/anime.jpg" 
+      "image": "/cogecha.jpg" 
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "price": 119.99,
       "instructor": "Varun",
       "isFeatured": true,
-      "image": "/courses/coding.jpg" 
+      "image": "/fox mask.jpg" 
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "price": 129.99,
       "instructor": "Varun",
       "isFeatured": false,
-      "image": "/courses/anime-web-dev.jpg"
+      "image": "/f.jpg"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "price": 139.99,
       "instructor": "Varun",
       "isFeatured": false,
-      "image": "/courses/new-technologies.jpg"
+      "image": "/h.jpg"
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "price": 149.99,
       "instructor": "Varun",
       "isFeatured": true,
-      "image": "/courses/problem-solving.jpg"
+      "image": "/rei.jpg"
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
       "price": 159.99,
       "instructor": "Varun",
       "isFeatured": false,
-      "image": "/courses/new-horizons.jpg"
+      "image": "/RX7.jpg"
     },
     {
       "id": 8,
@@ -78,7 +78,7 @@
       "price": 169.99,
       "instructor": "Varun",
       "isFeatured": true,
-      "image": "/courses/web-design.jpg"
+      "image": "/ROSE.png"
     },
     {
       "id": 9,
@@ -88,7 +88,7 @@
       "price": 179.99,
       "instructor": "Varun",
       "isFeatured": false,
-      "image": "/courses/storytelling.jpg"
+      "image": "/sunsetglow.png"
     },
     {
       "id": 10,
@@ -98,7 +98,7 @@
       "price": 189.99,
       "instructor": "Varun",
       "isFeatured": true,
-      "image": "/courses/learning-growth.jpg"
+      "image": "/tad.png"
     }
   ]
 }
