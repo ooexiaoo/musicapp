@@ -5,7 +5,7 @@ const nextConfig = {
     /* reactStrictMode: true, */
     distDir: 'public1',
     images: {
-        unoptimized: false,
+        unoptimized: true,
         domains: ['images.unsplash.com', 'red.cloudinary.com']
     }
 };
