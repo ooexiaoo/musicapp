@@ -1,8 +1,9 @@
 'use client'
+import { BackgroundBeams } from "@/components/ui/background-beams"
 
 function page() {
   return (
-    <div>contact</div>
+    <BackgroundBeams className="z-0 fixed"/>
   )
 }
 
